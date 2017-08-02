@@ -1,18 +1,25 @@
 /* General styling */
 
 * {
- background-color: black;
  font-family: helvetica;
  color: seashell;
  opacity: 0.9;
 }
 
-h4 {
+body {
+  background-color: black;
   font-size: 22px;
+  text-align: center;
+  margin: 0px;
 }
 
 span {
   font-size: 22px;
+}
+
+h2, h3, h4, {
+  margin: 0px;
+  padding: 10px;
 }
 
 /* Header */
@@ -24,12 +31,15 @@ span {
 }
 
 header {
+  background-color: black;
   position: fixed;
+  margin: auto;
   width: 100%;
   height: 69px;
   border-bottom: 1px solid seashell;
   align-items: center;
   z-index: 1;
+  top: 0px;
 }
 
 header img {
@@ -39,6 +49,7 @@ header img {
 
 nav {
   text-align: right;
+  padding-right: 10px;
 }
 
 nav span {
@@ -54,13 +65,13 @@ nav span {
   padding-top: 69px;
   width: 1200px;
   margin: auto;
+  background-color: black;
 }
 
 .content-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  align-content: center;
 }
 
 /* Mission */
@@ -75,13 +86,14 @@ nav span {
   width: 100%;
   margin: auto;
   text-align: center;
+  background-color: black;
 }
 
 /* Tea */
 
 #tea {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  padding-top: 70px;
+  margin: auto;
 }
 
 #tea .text {
@@ -97,5 +109,44 @@ nav span {
 .item span {
   text-align: center;
   display: block;
-  margin-bottom: 10px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+/* Locations */
+
+#locations {
+  margin-top: 70px;
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+#locations h2 {
+  background: transparent;
+}
+
+.shop {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px 20px;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+}
+
+/* Contact */
+
+.contact {
+  height: 200px;
+  text-align: center;
+}
+
+/* Footer */
+
+#footer {
+  padding-left: 20px;
+  text-align: left;
 }
