@@ -7,6 +7,14 @@
  opacity: 0.9;
 }
 
+h4 {
+  font-size: 22px;
+}
+
+span {
+  font-size: 22px;
+}
+
 /* Header */
 
 .top-container {
@@ -73,8 +81,21 @@ nav span {
 
 #tea {
   margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 #tea .text {
   text-align: center;
+}
+
+.item img{
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  }
+
+.item span {
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
 }
